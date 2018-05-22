@@ -47,6 +47,7 @@ export default class App extends Component {
     setInterval(() => this.forceUpdate(), 1000 * 6)
   }
   render() {
+    console.log('defaults: ', defaults)
     let data = {
       labels: ['value1', 'value2', 'value3'],
       datasets: [{
