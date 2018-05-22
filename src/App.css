@@ -1,0 +1,26 @@
+/* const colors = ['#4f6d7a', '#c0d6df', '#dbe9ee', '#4a6fa5', '#166088'] */
+/* const colors1 = ['#ffa69e', '#faf3dd', '#b8f2e6', '#aed9e0', '#5e6472'] */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+.App {
+  position:relative;
+  max-height: 100vh;
+  display:flex;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.box{
+  height:20px;
+  width:20px;
+}
+.box1{background-color: #ffa69e}
+.box2{background-color: #faf3dd}
+.box3{background-color: #b8f2e6}
+.flex{display:flex}
+input{border:none;border-bottom:1px solid #eee; font-family:inherit; padding-left:4px;}
+input:focus{outline:none;border-bottom:1px solid #c0d6df}
+.container{
+  width:25vw;
+  height:50vh;
+  position:relative;
+  display:block;
+  padding: 0 .5em .5em .5em;
+}
