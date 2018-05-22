@@ -21,18 +21,6 @@ const getState = () => ({
     backgroundColor: colors[1],
   }]
 });
-const barData = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-  datasets: [
-    {
-      label: 'Bar Graph',
-      backgroundColor: colors[3],
-      borderColor: colors[3],
-      borderWidth: 1,
-      data: [34, 55, 32, 74, 34, 62, 25]
-    }
-  ]
-}
 
 export default class App extends Component {
   constructor() {
@@ -45,7 +33,6 @@ export default class App extends Component {
     setInterval(() => this.forceUpdate(), 1000 * 6) // rerender every 6 seconds, causing bar chart to generate new data
   }
   render() {
-    console.log('defaults: ', defaults)
     let data = {
       labels: ['value1', 'value2', 'value3'],
       datasets: [{
